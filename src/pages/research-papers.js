@@ -10,17 +10,17 @@ const ResearchPapersStyles = styled.div`
     span {
       margin: 4px;
     }
-    .prof {
-      color: green;
-      font-weight: bold;
-    }
-    .year {
-      font-weight: 700;
-      color: blue;
-    }
-    hr {
-      border: 1px solid black;
-    }
+  }
+  .prof {
+    color: green;
+    font-weight: bold;
+  }
+  .year {
+    font-weight: 700;
+    color: blue;
+  }
+  hr {
+    border: 1px solid black;
   }
 `
 
