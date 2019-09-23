@@ -94,13 +94,18 @@ const Menu = ({ open }) => {
     <StyledMenu open={open}>
       <ul className="navigation__list">
         <li className="navigation__item">
+          <Link className="navigation__link" to="/">
+            Home
+          </Link>
+        </li>
+        <li className="navigation__item">
           <Link className="navigation__link" to="/research-papers">
             Academic Papers
           </Link>
         </li>
         <li className="navigation__item">
-          <Link className="navigation__link" to="/">
-            Educational Achievements
+          <Link className="navigation__link" to="/profile">
+            Profile
           </Link>
         </li>
         <li className="navigation__item">
