@@ -5,47 +5,13 @@ import SEO from "../components/seo"
 import ImageOne from "../images/ken1.jpg"
 import ImageTwo from "../images/ken2.jpg"
 import ImageThree from "../images/ken3.jpg"
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from "react-responsive-carousel"
 
 const ProfileStyles = styled.div`
-  .composition {
-    position: relative;
-    height: 100vh;
-    width: 50vw;
-
-    &__photo {
-      width: 55%;
-
-      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-      border-radius: 2px;
-      position: absolute;
-      z-index: 10;
-      transition: all 0.2s;
-      outline-offset: 2rem;
-
-      &--p1 {
-        left: 0;
-        top: 8rem;
-      }
-      &--p2 {
-        right: 0;
-        top: 8rem;
-      }
-      &--p3 {
-        left: 20%;
-        top: 13rem;
-      }
-      &:hover {
-        transform: scale(1.05) translateY(-0.5rem);
-        box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
-        z-index: 20;
-
-        outline: 1.5rem solid $color-primary;
-      }
-    }
-    //When we hover on composition, select the composition__photo that is NOT hovered:
-    &:hover &__photo:not(:hover) {
-      transform: scale(0.95);
-    }
+  .carousel-wrapper {
+    padding-top: 129px;
+    width: 100%;
   }
 `
 
@@ -57,22 +23,41 @@ export default function profile() {
         <div className="row no-gutters">
           <div className="col-md-6">
             <div className="fixed-div">
-              <div className="composition">
-                <img
-                  alt="Professor Kenneth Okpara"
-                  className="composition__photo composition__photo--p1"
-                  src={ImageTwo}
-                />
-                <img
-                  alt="Professor Kenneth Okpara"
-                  className="composition__photo composition__photo--p2"
-                  src={ImageTwo}
-                />
-                <img
-                  alt="Professor Kenneth Okpara"
-                  className="composition__photo composition__photo--p3"
-                  src={ImageThree}
-                />
+              <div className="carousel-wrapper">
+                <Carousel>
+                  <div>
+                    <img src={ImageOne} />
+                    <p className="legend">Legend 1</p>
+                  </div>
+                  <div>
+                    <img src={ImageTwo} />
+                    <p className="legend">Legend 2</p>
+                  </div>
+                  <div>
+                    <img src={ImageOne} />
+                    <p className="legend">Legend 1</p>
+                  </div>
+                  <div>
+                    <img src={ImageTwo} />
+                    <p className="legend">Legend 2</p>
+                  </div>
+                  <div>
+                    <img src={ImageOne} />
+                    <p className="legend">Legend 1</p>
+                  </div>
+                  <div>
+                    <img src={ImageTwo} />
+                    <p className="legend">Legend 2</p>
+                  </div>
+                  <div>
+                    <img src={ImageOne} />
+                    <p className="legend">Legend 1</p>
+                  </div>
+                  <div>
+                    <img src={ImageTwo} />
+                    <p className="legend">Legend 2</p>
+                  </div>
+                </Carousel>
               </div>
             </div>
           </div>
