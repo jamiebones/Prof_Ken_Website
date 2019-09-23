@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import ImageOne from "../images/ken1.jpg"
 import ImageTwo from "../images/ken2.jpg"
 import ImageThree from "../images/ken3.jpg"
-import "react-responsive-carousel/lib/styles/carousel.min.css"
+
 import { Carousel } from "react-responsive-carousel"
 
 const ProfileStyles = styled.div`
