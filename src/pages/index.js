@@ -18,10 +18,15 @@ const IndexStyles = styled.div`
     background-size: cover;
   }
   .content-home {
-    padding-top: 50px;
+    padding-top: 30px;
     p {
-      line-height: 40px;
+      line-height: 30px;
+      word-spacing: 10px;
     }
+  }
+
+  .content {
+    margin-top: 50px;
   }
 
   .pull-right {
@@ -51,20 +56,53 @@ const IndexPage = () => (
           <div className="content">
             <div className="content-home">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. vero
-                ea officia aliquid distinctio quasi. Odio, architecto. laborum
-                quo repudiandae provident sed porro neque modi rem ea illo quod
-                iste quia dolorum. Enim architecto tenetur maxime nam eos,
-                mollitia natus quam porro recusandae odit nemo rerum voluptas
-                deserunt, tempore in. Ad dolor id iste reprehenderit dolores
-                esse officia est, explicabo dolore voluptate quas ea commodi, ex
-                nobis temporibus unde, ullam architecto. Praesentium atque
-                expedita est
+                Kenneth Nnamdi Opara obtained his B.Sc. Zoology (1985); M.Sc.
+                Molecular Parasitology (1991) and Ph.D Veterinary Parasitology
+                (2005), from the University of Ibadan, Nigeria. His M.Sc.
+                Molecular Parasitology research, focused on the inhibition of
+                proteases released by trypanosomes. These proteases are the
+                potent inducers of blood coagulation and platelet aggregation in
+                infected patients. This study implicated some lysosomotropic
+                agent as great inhibitors. His Ph.D research was on the
+                Epidemiology of Human Onchocerciasis along Nigeria –Cameroon
+                border. A study that has elucidated the cross-border
+                transmission of onchocerciasis in Nigeria. Presently, he is a
+                Research Professor in Public Health Parasitology and Entomology
+                in the University of Uyo, Nigeria. His career as a University
+                lecturer and researcher span over 26 years. He has supervised
+                over 31 postgraduate students’ theses and several
+                undergraduates’ projects. He was appointed Head, Department of
+                Public Health Technology, Federal university of Technology,
+                Owerri (2008 – 2010) while on Sabbatical and Head, Department of
+                Zoology, University of Uyo (2010 – 2012). He is the Chairman,
+                Faculty of Science Research Committee. He has received national
+                and international funding to support his research in the control
+                and elimination of some neglected tropical disease. He has
+                participated in many operational researches involving the use of
+                current and up-to-date diagnostic tools for some neglected
+                tropical diseases. He has published more than 75 peer-reviewed
+                articles on parasites and vectors of human and animal diseases
+                in National and International Journals. He has attended a lot of
+                conferences, seminars and workshops where papers were presented
+                on neglected tropical diseases, within and outside the country.
+                He is on the editorial board of 3 scientific international
+                journals and has acted as a reviewer for over 21 National and
+                International Journals. He was a Member of WHO/APOC Expert
+                Committee on the Elimination of Onchocerciasis in Africa (2009);
+                Member WHO/APOC adviser on Entomological Assessment of
+                Interruption of Onchocerciasis in Africa, currently member
+                Nigeria Onchocerciasis Elimination Committee. He is a Research
+                Consultant to Federal Ministry of Health (FMoH), Helen Keller,
+                Sight Savers and RTI/Envision among other NGDOs in Nigeria. His
+                Research interest is focused on Molecular, Parasitological and
+                Entomological Studies on Neglected Tropical diseases
+                (Schistomomiasis, STHs, Lymphatic filariasis, Onchocerciasis and
+                Trypanosomiasis) and their vectors.
               </p>
 
               <p className="pull-right">
                 <Link className="btn btn-info" to="/profile">
-                  Read more...
+                  read more...
                 </Link>
               </p>
             </div>

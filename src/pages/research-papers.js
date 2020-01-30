@@ -51,416 +51,201 @@ export default function ResearchPapers() {
           <div className="col-md-6">
             <div className="content">
               <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
+                <div className="card">
+                  <div className="card-body">
+                    <p className="card-title">
+                      {" "}
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti error provident explicabo similique mollitia id
+                      magnam dicta, exercitationem vitae aspernatur, ut
+                      consectetur ea{" "}
+                    </p>
 
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
+                    <p>
+                      Authors :{" "}
+                      <span className="prof">Professor Ken Okpara</span>,
+                      <span>Professor Jajjaja akkakak</span>,
+                      <span>Dr Mathew Polikospina</span>
+                    </p>
 
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
+                    <p>
+                      Year Pulished: <span className="year">2013</span>
+                    </p>
 
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
+                    <p>
+                      Weblink:{" "}
+                      <span>
+                        <a href="http://www.facebook.com">Google Scholars</a>
+                      </span>
+                    </p>
+                    <hr />
+                  </div>
+                </div>
               </div>
 
               <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
+                <div className="card">
+                  <div className="card-body">
+                    <p className="card-title">
+                      {" "}
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti error provident explicabo similique mollitia id
+                      magnam dicta, exercitationem vitae aspernatur, ut
+                      consectetur ea{" "}
+                    </p>
 
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
+                    <p>
+                      Authors :{" "}
+                      <span className="prof">Professor Ken Okpara</span>,
+                      <span>Professor Jajjaja akkakak</span>,
+                      <span>Dr Mathew Polikospina</span>
+                    </p>
 
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
+                    <p>
+                      Year Pulished: <span className="year">2013</span>
+                    </p>
 
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
+                    <p>
+                      Weblink:{" "}
+                      <span>
+                        <a href="http://www.facebook.com">Google Scholars</a>
+                      </span>
+                    </p>
+                    <hr />
+                  </div>
+                </div>
               </div>
 
               <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
+                <div className="card">
+                  <div className="card-body">
+                    <p className="card-title">
+                      {" "}
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti error provident explicabo similique mollitia id
+                      magnam dicta, exercitationem vitae aspernatur, ut
+                      consectetur ea{" "}
+                    </p>
 
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
+                    <p>
+                      Authors :{" "}
+                      <span className="prof">Professor Ken Okpara</span>,
+                      <span>Professor Jajjaja akkakak</span>,
+                      <span>Dr Mathew Polikospina</span>
+                    </p>
 
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
+                    <p>
+                      Year Pulished: <span className="year">2013</span>
+                    </p>
 
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
+                    <p>
+                      Weblink:{" "}
+                      <span>
+                        <a href="http://www.facebook.com">Google Scholars</a>
+                      </span>
+                    </p>
+                    <hr />
+                  </div>
+                </div>
               </div>
 
               <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
+                <div className="card">
+                  <div className="card-body">
+                    <p className="card-title">
+                      {" "}
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti error provident explicabo similique mollitia id
+                      magnam dicta, exercitationem vitae aspernatur, ut
+                      consectetur ea{" "}
+                    </p>
 
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
+                    <p>
+                      Authors :{" "}
+                      <span className="prof">Professor Ken Okpara</span>,
+                      <span>Professor Jajjaja akkakak</span>,
+                      <span>Dr Mathew Polikospina</span>
+                    </p>
 
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
+                    <p>
+                      Year Pulished: <span className="year">2013</span>
+                    </p>
 
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
+                    <p>
+                      Weblink:{" "}
+                      <span>
+                        <a href="http://www.facebook.com">Google Scholars</a>
+                      </span>
+                    </p>
+                    <hr />
+                  </div>
+                </div>
               </div>
 
               <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
+                <div className="card">
+                  <div className="card-body">
+                    <p className="card-title">
+                      {" "}
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti error provident explicabo similique mollitia id
+                      magnam dicta, exercitationem vitae aspernatur, ut
+                      consectetur ea{" "}
+                    </p>
 
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
+                    <p>
+                      Authors :{" "}
+                      <span className="prof">Professor Ken Okpara</span>,
+                      <span>Professor Jajjaja akkakak</span>,
+                      <span>Dr Mathew Polikospina</span>
+                    </p>
 
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
+                    <p>
+                      Year Pulished: <span className="year">2013</span>
+                    </p>
 
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
+                    <p>
+                      Weblink:{" "}
+                      <span>
+                        <a href="http://www.facebook.com">Google Scholars</a>
+                      </span>
+                    </p>
+                    <hr />
+                  </div>
+                </div>
               </div>
 
               <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
+                <div className="card">
+                  <div className="card-body">
+                    <p className="card-title">
+                      {" "}
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Corrupti error provident explicabo similique mollitia id
+                      magnam dicta, exercitationem vitae aspernatur, ut
+                      consectetur ea{" "}
+                    </p>
 
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
+                    <p>
+                      Authors :{" "}
+                      <span className="prof">Professor Ken Okpara</span>,
+                      <span>Professor Jajjaja akkakak</span>,
+                      <span>Dr Mathew Polikospina</span>
+                    </p>
 
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
+                    <p>
+                      Year Pulished: <span className="year">2013</span>
+                    </p>
 
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
-              </div>
-
-              <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
-
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
-
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
-
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
-              </div>
-              <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
-
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
-
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
-
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
-              </div>
-              <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
-
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
-
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
-
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
-              </div>
-              <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
-
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
-
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
-
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
-              </div>
-              <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
-
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
-
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
-
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
-              </div>
-              <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
-
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
-
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
-
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
-              </div>
-              <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
-
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
-
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
-
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
-              </div>
-              <div className="academic-div">
-                <p>
-                  Title:{" "}
-                  <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Corrupti error provident explicabo similique mollitia id
-                    magnam dicta, exercitationem vitae aspernatur, ut
-                    consectetur ea.
-                  </span>
-                </p>
-
-                <p>
-                  Authors : <span className="prof">Professor Ken Okpara</span>,
-                  <span>Professor Jajjaja akkakak</span>,
-                  <span>Dr Mathew Polikospina</span>
-                </p>
-
-                <p>
-                  Year Pulished: <span className="year">2013</span>
-                </p>
-
-                <p>
-                  Weblink:{" "}
-                  <span>
-                    <a href="http://www.facebook.com">Google Scholars</a>
-                  </span>
-                </p>
-                <hr />
+                    <p>
+                      Weblink:{" "}
+                      <span>
+                        <a href="http://www.facebook.com">Google Scholars</a>
+                      </span>
+                    </p>
+                    <hr />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
